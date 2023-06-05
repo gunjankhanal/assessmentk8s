@@ -5,7 +5,7 @@ metadata:
   namespace: django-todo-app
 
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: django-app
 
@@ -13,3 +13,4 @@ spec:
     - port: 80
       targetPort: 8000
       protocol: TCP
+      nodePort: 30007
