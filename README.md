@@ -1,6 +1,6 @@
 # assessmentk8s
 
-# Step 1: Install Minikube/Kind/k3s or Kubeadm on your e.ase
+# Step 1: Install Minikube/Kind/k3s or Kubeadm on your ease
 
 Here we have installed Minikube:
 And started the service as: minikube start
